@@ -17,7 +17,7 @@
                BlueprintIdentifier = "917D3EF01D8415E700F7D3CA"
                BuildableName = "UnleashingBuildSettings-Example.app"
                BlueprintName = "UnleashingBuildSettings-Example"
-               ReferencedContainer = "container:UnleashingBuildSettings-Example.xcodeproj">
+               ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,7 +33,7 @@
             BlueprintIdentifier = "917D3EF01D8415E700F7D3CA"
             BuildableName = "UnleashingBuildSettings-Example.app"
             BlueprintName = "UnleashingBuildSettings-Example"
-            ReferencedContainer = "container:UnleashingBuildSettings-Example.xcodeproj">
+            ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -44,7 +44,7 @@
                BlueprintIdentifier = "917D3F041D8415E700F7D3CA"
                BuildableName = "UnleashingBuildSettings-ExampleTests.xctest"
                BlueprintName = "UnleashingBuildSettings-ExampleTests"
-               ReferencedContainer = "container:UnleashingBuildSettings-Example.xcodeproj">
+               ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "917D3EF01D8415E700F7D3CA"
             BuildableName = "UnleashingBuildSettings-Example.app"
             BlueprintName = "UnleashingBuildSettings-Example"
-            ReferencedContainer = "container:UnleashingBuildSettings-Example.xcodeproj">
+            ReferencedContainer = "container:">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -83,7 +83,7 @@
             BlueprintIdentifier = "917D3EF01D8415E700F7D3CA"
             BuildableName = "UnleashingBuildSettings-Example.app"
             BlueprintName = "UnleashingBuildSettings-Example"
-            ReferencedContainer = "container:UnleashingBuildSettings-Example.xcodeproj">
+            ReferencedContainer = "container:">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

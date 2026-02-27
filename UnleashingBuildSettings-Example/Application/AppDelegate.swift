@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import os.log
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        print("apiDomain: \(Environment.apiDomain())")
+        let log = OSLog(subsystem: Bundle.main.bundleIdentifier!, category: "environment")
+        os_log("apiDomain: %{public}@", log: log, type: .debug, Environment.apiDomain())
         
         return true
     }

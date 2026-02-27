@@ -1,8 +1,0 @@
-language: objective-c
-
-osx_image: xcode7.3
-
-script:
-   xcodebuild -project UnleashingBuildSettings-Example.xcodeproj -scheme Debug test -sdk iphonesimulator
-
-
